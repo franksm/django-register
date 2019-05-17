@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    {% for flist in food_list %}
+    <h1> 食物名稱 : {{flist.food_name }} </h1>
+    <p> <a href="/vendor/food/{{flist.id}}"> More detail...</a> </p>
+    {% endfor %}
+  </body>
+</html>
