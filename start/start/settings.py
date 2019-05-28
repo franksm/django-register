@@ -34,6 +34,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'import_export',
+	'userform.apps.UserformConfig',
 	'vendor.apps.VendorConfig',
 	'user.apps.UserConfig',
 	'django.contrib.admin',
