@@ -25,5 +25,6 @@ urlpatterns = [
 	path('welcome/',include('welcome.urls')),
 	path('vendor/', include('vendor.urls')),
 	path('user/', include('user.urls')),
+	path('userform/', include('userform.urls')),
 ]
 
